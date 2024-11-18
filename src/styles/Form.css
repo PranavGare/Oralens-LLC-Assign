@@ -1,0 +1,46 @@
+.form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds spacing between elements */
+  }
+  
+  .form-title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #1976d2;
+    font-weight: bold;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds spacing between form inputs */
+  }
+  
+  .upload-button {
+    width: 100%;
+    padding: 10px 0;
+  }
+  
+  .submit-button {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 600px) {
+    .form-container {
+      padding: 15px;
+      margin: 20px;
+    }
+  
+    .form-title {
+      font-size: 1.5rem;
+    }
+  }
+  
